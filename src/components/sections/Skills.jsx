@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card } from '../ui/card'
-import { ArrowLeftRight, Code, Database, Server } from 'lucide-react'
+import { ArrowLeftRight, Braces, Code, Database, Server } from 'lucide-react'
+import { OrbitingCircles } from '../magicui/orbiting-circles'
 
 const Skills = () => {
   return (
@@ -81,12 +82,12 @@ const Skills = () => {
                 <div className={" p-4 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20"}> 
                     <div className='flex gap-2 items-center'>
 
-                        <div className='bg-blue-400 h-8 w-8 rounded-full grid place-items-center'>
-                            <Code className='text-white' size={16} />
+                        <div className='bg-blue-400 min-h-8 min-w-8 rounded-full grid place-items-center'>
+                            <Braces className='text-white' size={16} />
                         </div>
                         <div>
-                            <span className='font-medium text-white'>Interactive Frontend</span>
-                            <p className='text-gray-400 text-sm'> React, Next.js, Tailwind CSS.</p>
+                            <span className='font-medium text-white'>Fullstack Developer</span>
+                            <p className='text-gray-400 text-sm'> Building complex and interactive web apps.</p>
                         </div>
 
                     </div>
@@ -95,12 +96,12 @@ const Skills = () => {
                 <div className={"p-4 z-20 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20"}> 
                     <div className='flex gap-2 items-center'>
 
-                        <div className='bg-green-400 h-8 w-8 rounded-full grid place-items-center'>
+                        <div className='bg-green-400 min-h-8 min-w-8 rounded-full grid place-items-center'>
                             <Database className='text-white' size={16} />
                         </div>
                         <div>
-                            <span className='font-medium text-white'>Database Handling</span>
-                            <p className='text-gray-400 text-sm'> MongoDB, PostgreSQL.</p>
+                            <span className='font-medium text-white'>System Analysis & Design</span>
+                            <p className='text-gray-400 text-sm'> Designing workflows, system architecture, and diagrams.</p>
                         </div>
 
                     </div>
@@ -109,26 +110,12 @@ const Skills = () => {
                 <div className={"p-4 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20"}> 
                     <div className='flex gap-2 items-center'>
 
-                        <div className='bg-red-400 h-8 w-8 rounded-full grid place-items-center'>
+                        <div className='bg-red-400 min-h-8 min-w-8 rounded-full grid place-items-center'>
                             <Server className='text-white' size={16} />
                         </div>
                         <div>
-                            <span className='font-medium text-white'>ServerSide Logic</span>
-                            <p className='text-gray-400 text-sm'> Node.js, express, python.</p>
-                        </div>
-
-                    </div>
-
-                </div>
-                 <div className={" bottom-4 -z-10 p-4 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20"}> 
-                    <div className='flex gap-2 items-center'>
-
-                        <div className='bg-yellow-500 h-8 w-8 rounded-full grid place-items-center'>
-                            <ArrowLeftRight className='text-white' size={16} />
-                        </div>
-                        <div>
-                            <span className='font-medium text-white'>API Handling</span>
-                            <p className='text-gray-400 text-sm'> REST , Postman, Thunder Client</p>
+                            <span className='font-medium text-white'>Project Lead</span>
+                            <p className='text-gray-400 text-sm'> Guiding team members, ensuring projects stay on track.</p>
                         </div>
 
                     </div>
@@ -137,7 +124,27 @@ const Skills = () => {
 
             </div>
             <div className='p-6'>
-                <h3 className='text-lg text-white font-medium'>Programming Capabilities</h3>
+                <h3 className='text-lg text-white font-medium'>Role Expertise</h3>
+                <p className="text-gray-400 text-sm leading-5 mt-2">Roles and responsibilities that I can handle.</p>
+            </div>
+        </div>
+
+        {/* third card  */}
+          <div className='border border-gray-800 border-collapse'>
+            <div className='h-75 p-6 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden'>
+               
+               <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
+                <OrbitingCircles iconSize={40}>
+                    
+                </OrbitingCircles>
+                <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
+                    <Code />
+                </OrbitingCircles>
+                </div>
+
+            </div>
+            <div className='p-6'>
+                <h3 className='text-lg text-white font-medium'>Current Tech Stack</h3>
                 <p className="text-gray-400 text-sm leading-5 mt-2">Tasks that I can handle in a project along with tech I use.</p>
             </div>
         </div>
