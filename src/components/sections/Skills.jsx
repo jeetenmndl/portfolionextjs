@@ -2,6 +2,7 @@ import React from 'react'
 import { Card } from '../ui/card'
 import { ArrowLeftRight, Braces, Code, Database, Server } from 'lucide-react'
 import { OrbitingCircles } from '../magicui/orbiting-circles'
+import Image from 'next/image'
 
 const Skills = () => {
   return (
@@ -131,21 +132,45 @@ const Skills = () => {
 
         {/* third card  */}
           <div className='border border-gray-800 border-collapse'>
-            <div className='h-75 p-6 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden'>
+            <div className='h-75 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden bg-gray-300/20 shadow-lg shadow-background inset-16'>
                
-               <div className="relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
-                <OrbitingCircles iconSize={40}>
-                    
+               <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden">
+                <OrbitingCircles iconSize={40} radius={45}>
+                    <div className="p-1 rounded-full bg-white">
+                        <Image src={"https://simpleicons.org/icons/nextdotjs.svg"} alt="nextjs" width={20} height={20} className="h-6 w-6" />
+                    </div>
                 </OrbitingCircles>
-                <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
-                    <Code />
+
+                <OrbitingCircles iconSize={30} radius={90} reverse speed={2} path={true}>
+                     <div className="p-1 rounded-full bg-blue-400">
+                        <Image src={"https://simpleicons.org/icons/react.svg"} alt="react" width={20} height={20} className="h-6 w-6" />
+                    </div>
+                     <div className="p-1 rounded-full bg-white">
+                        <Image src={"https://simpleicons.org/icons/shadcnui.svg"} alt="shadcn" width={20} height={20} className="h-6 w-6" />
+                    </div>
+                   
+                    <div className="p-1 rounded-full bg-blue-300">
+                        <Image src={"https://simpleicons.org/icons/tailwindcss.svg"} alt="tailwindcss" width={20} height={20} className="h-6 w-6" />
+                    </div>
+                </OrbitingCircles>
+
+                <OrbitingCircles iconSize={30} radius={140} speed={1} path={true}>
+                     <div className="p-1 rounded-full bg-green-400">
+                        <Image src={"https://simpleicons.org/icons/mongodb.svg"} alt="mongodb" width={20} height={20} className="h-6 w-6" />
+                    </div>
+                    <div className="p-1 rounded-full bg-green-700">
+                        <Image src={"https://simpleicons.org/icons/nodedotjs.svg"} alt="nodejs" width={20} height={20} className="h-6 w-6" />
+                    </div>
+                    <div className="p-1 rounded-full bg-yellow-500">
+                        <Image src={"https://simpleicons.org/icons/javascript.svg"} alt="javascript" width={20} height={20} className="h-6 w-6" />
+                    </div>
                 </OrbitingCircles>
                 </div>
 
             </div>
             <div className='p-6'>
                 <h3 className='text-lg text-white font-medium'>Current Tech Stack</h3>
-                <p className="text-gray-400 text-sm leading-5 mt-2">Tasks that I can handle in a project along with tech I use.</p>
+                <p className="text-gray-400 text-sm leading-5 mt-2">Framework and Platforms that i currently use.</p>
             </div>
         </div>
         

@@ -1,5 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import Navbar from "@/components/sections/Navbar";
+import Projects from "@/components/sections/Projects";
 import SectionBreak from "@/components/sections/SectionBreak";
 import Skills from "@/components/sections/Skills";
 import TechBanner from "@/components/sections/TechBanner";
@@ -15,6 +16,10 @@ export default function Home() {
         <TechBanner />
         <SectionBreak text="SKILLS" />
         <Skills />
+        <SectionBreak text="PROJECTS" />
+        <Projects />
+        <SectionBreak text="ACHIEVEMENTS" />
+
 
       </div>
   
