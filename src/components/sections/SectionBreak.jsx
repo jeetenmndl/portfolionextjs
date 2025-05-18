@@ -13,7 +13,7 @@ const SectionBreak = (props) => {
         flickerChance={0.02}
         height={120}
       />
-      <h2 className='text-xl font-semibold '>{props.text}</h2>
+      <h2 className='text-2xl font-semibold '>{props.text}</h2>
     </div>
   )
 }

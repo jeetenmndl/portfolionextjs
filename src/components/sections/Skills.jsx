@@ -132,7 +132,14 @@ const Skills = () => {
 
         {/* third card  */}
           <div className='border border-gray-800 border-collapse'>
-            <div className='h-75 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden bg-gray-300/20 shadow-lg shadow-background inset-16'>
+            <div className='h-75 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden  shadow-lg shadow-background inset-16'>
+
+           
+            <div className='absolute bg-main/10 w-50 h-50 rounded-full translate-x-15 translate-y-12 blur-2xl'>
+            
+            
+            </div>
+
                
                <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden">
                 <OrbitingCircles iconSize={40} radius={45}>

@@ -1,3 +1,6 @@
+import Achievements from "@/components/sections/Achievements";
+import Courses from "@/components/sections/Courses";
+import Education from "@/components/sections/Education";
 import Hero from "@/components/sections/Hero";
 import Navbar from "@/components/sections/Navbar";
 import Projects from "@/components/sections/Projects";
@@ -19,7 +22,11 @@ export default function Home() {
         <SectionBreak text="PROJECTS" />
         <Projects />
         <SectionBreak text="ACHIEVEMENTS" />
-
+        <Achievements />
+        <SectionBreak text="COURSES & WORKSHOPS" />
+        <Courses />
+        <SectionBreak text="EDUCATION" />
+        <Education />
 
       </div>
   
