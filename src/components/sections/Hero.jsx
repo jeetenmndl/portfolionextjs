@@ -40,11 +40,14 @@ const Hero = () => {
             </p>
 
             <div className="mt-6 flex gap-2">
+          <Link href="mailto:jeetenmandal848@gmail.com" target="_blank">
+
               <Button className="bg-main  mr-4 cursor-pointer flex gap-2 items-center text-gray-800 hover:bg-main/90 py-5 px-6">
                 <Terminal />
                 <span>Get Started</span>
 
                 </Button>
+          </Link>
 
                 <Link href="mailto:jeetenmandal848@gmail.com" target="_blank">
                 <Button size="icon" className="p-5 bg-gray-400/20 hover:text-black cursor-pointer">

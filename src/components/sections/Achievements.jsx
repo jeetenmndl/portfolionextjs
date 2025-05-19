@@ -3,16 +3,23 @@ import Rupee from "@/../../public/rupee.png"
 import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '../ui/button'
+import IIC from "@/../../public/iic.jpg"
+import Delta from "@/../../public/delta.jpg"
+import Delta2 from "@/../../public/delta2.jpg"
+import Codefest2 from "@/../../public/codefest2.jpg"
+import Ideathon from "@/../../public/ideathon.jpg"
 
 const Achievements = () => {
   return (
     <section className='lg:grid grid-cols-2'>
 
+      
+
 {/* codefest  */}
         <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
         
-         <div>
-            <Image loading='lazy' src={Rupee} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
+         <div className='h-80 overflow-hidden'>
+            <Image loading='lazy' src={Codefest2} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md h-full w-auto" />
         </div>
         <div className='mt-4'>
             
@@ -32,35 +39,11 @@ const Achievements = () => {
         </div>
         </div>
 
-{/* codefest ideathon  */}
+  {/* Delta  hackathon  */}
         <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
         
-         <div>
-            <Image loading='lazy' src={Rupee} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
-        </div>
-        <div className='mt-4'>
-            
-            <span className='text-sm text-gray-500'>Team Leader</span>
-            <h3 className='text-2xl font-semibold text-white '>Koshi Province Representative | CodeFest Ideathon</h3>
-               
-            <p className="text-sm text-gray-400 mt-4">
-                We were the only team to represent Koshi Province in the final round of the CodeFest Hackathon. In this ideathon, we presented our project "Sambandha" to the judges and received positive feedback. Also the prototype of the project was selected as the best prototype in the ideathon.
-            </p>
-
-            <div className='mt-4'>
-                <Link href="https://ourbiratnagar.net/2024/11/282890" target="_blank">
-                <Button size={"sm"} className="bg-main text-black cursor-pointer text-sm">Show More</Button>
-                </Link>
-            </div>
-            
-        </div>
-        </div>
-
-{/* Delta  hackathon  */}
-        <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
-        
-         <div>
-            <Image loading='lazy' src={Rupee} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
+         <div className='h-80 overflow-hidden'>
+            <Image loading='lazy' src={Delta2} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
         </div>
         <div className='mt-4'>
             
@@ -80,11 +63,37 @@ const Achievements = () => {
         </div>
         </div>
 
+{/* codefest ideathon  */}
+        <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
+        
+         <div className='h-80 overflow-hidden'>
+            <Image loading='lazy' src={Ideathon} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md h-full w-auto" />
+        </div>
+        <div className='mt-4'>
+            
+            <span className='text-sm text-gray-500'>Team Leader</span>
+            <h3 className='text-2xl font-semibold text-white '>Koshi Province Representative | CodeFest Ideathon</h3>
+               
+            <p className="text-sm text-gray-400 mt-4">
+                We were the only team to represent Koshi Province in the final round of the CodeFest Hackathon. In this ideathon, we presented our project "Sambandha" to the judges and received positive feedback. Also the prototype of the project was selected as the best prototype in the ideathon.
+            </p>
+
+            <div className='mt-4'>
+                <Link href="https://ourbiratnagar.net/2024/11/282890" target="_blank">
+                <Button size={"sm"} className="bg-main text-black cursor-pointer text-sm">Show More</Button>
+                </Link>
+            </div>
+            
+        </div>
+        </div>
+
+
+
 {/* IIC  QUEST  */}
         <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
         
-         <div>
-            <Image loading='lazy' src={Rupee} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
+         <div className='h-80 overflow-hidden'>
+            <Image loading='lazy' src={IIC} alt={ "iic quest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
         </div>
         <div className='mt-4'>
             

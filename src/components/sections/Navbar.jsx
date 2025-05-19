@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { Terminal } from 'lucide-react'
+import Link from 'next/link'
 
 const Navbar = () => {
   return (
@@ -11,9 +12,11 @@ const Navbar = () => {
           <h1 className='text-xl text-white font-semibold ml-2'>Jeeten Mandal</h1>
         </div>
         <div>
+          <Link href="mailto:jeetenmandal848@gmail.com" target="_blank">
             <Button size={"sm"} className=" bg-main hover:bg-main/90">
                 <span className='text-white cursor-pointer'>Get Started</span>
             </Button>
+            </Link>
         </div>
       </div>
 
