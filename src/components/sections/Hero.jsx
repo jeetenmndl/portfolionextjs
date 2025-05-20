@@ -13,16 +13,16 @@ const Hero = () => {
   return (
     <div className='border-x-gray-800 border-x '>
      
-        <div className=" lg:grid lg:grid-cols-[60%_40%] gap-2 p-12">
+        <div className=" lg:grid lg:grid-cols-[60%_40%] gap-2 lg:px-12 lg:py-12 px-4 py-8">
           <div>
 
 
-          <div className='group w-fit rounded-full border border-black/5 bg-purple-400/20 text-base  transition-all ease-in'>
+          <div className='group w-fit rounded-full border border-black/5 bg-purple-400/20 text-base  transition-all ease-in mx-auto lg:mx-0'>
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out text-main hover:text-neutral-600 hover:duration-300"> ✨ Hello, I am Jeeten</AnimatedShinyText>
 
           </div>
 
-            <h1 className='mt-10'>
+            <h1 className='mt-10 text-center lg:text-left'>
             <AnimatedGradientText
               speed={1}
               colorFrom="#4ade80"
@@ -33,13 +33,13 @@ const Hero = () => {
             </AnimatedGradientText>
             </h1>
 
-            <p className="mt-8">
+            <p className="mt-8 text-center lg:text-left">
               <span className="text-gray-300 text-lg">
                 I am a full-stack developer with 3 years of expertise in React, Next, Node.js, and MongoDB. I am passionate for creating innovative and responsive web applications.
               </span>
             </p>
 
-            <div className="mt-6 flex gap-2">
+            <div className="mt-6 flex gap-2 justify-center lg:justify-start">
           <Link href="mailto:jeetenmandal848@gmail.com" target="_blank">
 
               <Button className="bg-main  mr-4 cursor-pointer flex gap-2 items-center text-gray-800 hover:bg-main/90 py-5 px-6">
@@ -68,7 +68,7 @@ const Hero = () => {
               </Link>
             </div>
 
-            <div className="mt-2">
+            <div className="mt-2 text-center lg:text-left">
               <span className="text-gray-300 text-xs">
                 Available for freelance work and jobs.
               </span>

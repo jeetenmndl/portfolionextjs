@@ -121,7 +121,7 @@ const ReviewCard = ({
     
     <figure
       className={cn(
-        "relative w-24 h-24 cursor-pointer overflow-hidden rounded-xl border p-4 mx-2 my-2 grid place-items-center",``,
+        "relative h-16 w-16 lg:w-24 lg:h-24 cursor-pointer overflow-hidden rounded-xl border p-3 lg:p-4 m-1 lg:m-2 grid place-items-center",``,
         // light styles
         ` bg-white/60 hover:bg-gray-400/50 `,
         // dark styles
@@ -131,7 +131,7 @@ const ReviewCard = ({
         backgroundColor: color,
       }}
     >
-      <Image src={img} alt={name} width={30} height={30} className={"h-12 w-12 "+`bg-[${color}]`} />
+      <Image src={img} alt={name} width={30} height={30} className={"h-8 w-8 lg:h-12 lg:w-12 "+`bg-[${color}]`} />
     </figure>
     </CoolMode>
   );

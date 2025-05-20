@@ -6,7 +6,7 @@ import { Particles } from '../magicui/particles'
 
 const Experience = () => {
   return (
-   <div className="border border-gray-800 py-20 px-32 text-center overflow-hidden relative ">
+   <div className="border border-gray-800 py-20 px-4 lg:px-32 text-center overflow-hidden relative ">
 
     
         {/* <div className=" absolute left-1/2 -translate-x-1/2 top-1/2  flex items-center justify-center">
@@ -22,7 +22,7 @@ const Experience = () => {
       />
 
 
-        <h2 className='text-4xl font-bold text-white z-30'>
+        <h2 className='text-2xl lg:text-4xl font-bold text-white z-30'>
             Wroked as Project Lead at Rupee API
         </h2>
         <p className=" text-gray-400 mt-8 z-30">

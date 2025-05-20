@@ -7,7 +7,7 @@ import { Lens } from '../magicui/lens'
 
 const Courses = () => {
   return (
-    <div className="grid grid-cols-3">
+    <div className="lg:grid grid-cols-3">
 
         {/* machine learning  */}
         <div className='border border-gray-800 p-4 hover:bg-gray-600/10 pb-6'>

@@ -18,8 +18,8 @@ const Achievements = () => {
 {/* codefest  */}
         <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
         
-         <div className='h-80 overflow-hidden'>
-            <Image loading='lazy' src={Codefest2} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md h-full w-auto" />
+         <div className='lg:h-80 overflow-hidden'>
+            <Image loading='lazy' src={Codefest2} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto lg:h-full ;g:w-auto" />
         </div>
         <div className='mt-4'>
             
@@ -42,8 +42,8 @@ const Achievements = () => {
   {/* Delta  hackathon  */}
         <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
         
-         <div className='h-80 overflow-hidden'>
-            <Image loading='lazy' src={Delta2} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
+         <div className='lg:h-80 overflow-hidden'>
+            <Image loading='lazy' src={Delta2} alt={ "delta hackathon jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
         </div>
         <div className='mt-4'>
             
@@ -66,8 +66,8 @@ const Achievements = () => {
 {/* codefest ideathon  */}
         <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
         
-         <div className='h-80 overflow-hidden'>
-            <Image loading='lazy' src={Ideathon} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md h-full w-auto" />
+         <div className='lg:h-80 overflow-hidden'>
+            <Image loading='lazy' src={Ideathon} alt={ "codefest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto lg:h-full lg:w-auto" />
         </div>
         <div className='mt-4'>
             
@@ -92,7 +92,7 @@ const Achievements = () => {
 {/* IIC  QUEST  */}
         <div className='border border-gray-800 p-6 hover:bg-gray-600/10'>
         
-         <div className='h-80 overflow-hidden'>
+         <div className='lg:h-80 overflow-hidden'>
             <Image loading='lazy' src={IIC} alt={ "iic quest jeeten.com.np"} width={1000} height={1000} className="rounded-md w-full h-auto" />
         </div>
         <div className='mt-4'>

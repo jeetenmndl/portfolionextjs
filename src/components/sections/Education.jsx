@@ -4,7 +4,7 @@ import { AuroraText } from '../magicui/aurora-text'
 
 const Education = () => {
   return (
-    <div className="grid grid-cols-3">
+    <div className="lg:grid grid-cols-3">
 
         <div className="grid place-items-center py-12 border border-gray-800 hover:bg-gray-600/10">
 

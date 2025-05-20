@@ -35,8 +35,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='flex justify-between items-center mt-4'>
-        <div className='flex items-center'>
+      <div className='flex justify-center lg:justify-between items-center mt-4'>
+        <div className='hidden lg:flex items-center'>
           
         </div>
         <div className='text-sm text-gray-500'>

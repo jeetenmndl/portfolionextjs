@@ -10,7 +10,7 @@ const Skills = () => {
 
     {/* first grid */}
         <div className='border border-gray-800 border-collapse'>
-            <div className='h-75 p-6 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden'>
+            <div className='lg:h-75 p-6 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden'>
                 {/* cards  */}
                 <div className={" p-4 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20 group-hover:-translate-x-5"}> 
                     <div className='flex gap-2 items-center'>
@@ -26,7 +26,7 @@ const Skills = () => {
                     </div>
 
                 </div>
-                <div className={" translate-x-3 p-4 z-20 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20 group-hover:-translate-x-0"}> 
+                <div className={" lg:translate-x-3 p-4 z-20 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20 group-hover:-translate-x-0"}> 
                     <div className='flex gap-2 items-center'>
 
                         <div className='bg-green-400 h-8 w-8 rounded-full grid place-items-center'>
@@ -54,7 +54,7 @@ const Skills = () => {
                     </div>
 
                 </div>
-                 <div className={" bottom-4 -translate-x-5 -z-10 p-4 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20 group-hover:translate-x-0"}> 
+                 <div className={" bottom-4 lg:-translate-x-5 -z-10 p-4 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20 group-hover:translate-x-0"}> 
                     <div className='flex gap-2 items-center'>
 
                         <div className='bg-yellow-500 h-8 w-8 rounded-full grid place-items-center'>
@@ -78,7 +78,7 @@ const Skills = () => {
 
     {/* second grid */}
         <div className='border border-gray-800 border-collapse'>
-            <div className='h-75 p-6 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden'>
+            <div className='lg:h-75 p-6 border-b border-gray-800 [&>div]:mb-2 group overflow-hidden'>
                 {/* cards  */}
                 <div className={" p-4 bg-background border border-gray-800 transition-all duration-300 ease-in-out hover:shadow-sm hover:shadow-main/20 rounded-md group-hover:-translate-y-20"}> 
                     <div className='flex gap-2 items-center'>
